@@ -2,7 +2,7 @@
 
 echo Collecing names of all directories which end in .star.dir
 
-files=`ls -d *.star.dir`
+files=`ls -d Sample*`
 #echo $files
 echo `wc -w <<< $files` Directories found
 
